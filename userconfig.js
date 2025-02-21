@@ -56,6 +56,12 @@ const default_config = {
               url: "https://www.abc.net.au/news",
               icon: "badge-filled",
               icon_color: palette.peach,
+            },
+            {
+              name: "bom",
+              url: "https://beta.bom.gov.au/",
+              icon: "sun",
+              icon_color: palette.red
             }
           ],
         },
