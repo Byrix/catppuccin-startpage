@@ -118,7 +118,7 @@ const default_config = {
             {
               name: "elict",
               url: "https://elicit.com/",
-              icon: "zoom",
+              icon: "search",
               icon_color: palette.blue,
             },
           ],
