@@ -38,7 +38,7 @@ const default_config = {
               name: "drive",
               url: "https://drive.proton.me",
               icon: "brand-google-drive",
-              icon_color: palette.blue,
+              icon_color: palette.red,
             },
           ],
         },
@@ -137,6 +137,12 @@ const default_config = {
               url: "https://val.rmit.edu.au/",
               icon: "robot",
               icon_color: palette.peach,
+            },
+            {
+              name: 'github',
+              url: 'https://github.com',
+              icon: 'brand-github',
+              icon_color: palette.red
             }
           ],
         },
