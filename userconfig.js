@@ -72,7 +72,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-06.gif",
       categories: [
         {
-          name: "tools",
+          name: "services",
           links: [
             {
               name: "canvas",
@@ -92,6 +92,12 @@ const default_config = {
               icon: "brand-teams",
               icon_color: palette.red,
             },
+            {
+              name: "easycite",
+              url: "https://www.lib.rmit.edu.au/easy-cite/",
+              icon: "blockquote",
+              icon_color: palette.blue
+            }
           ],
         },
         {
@@ -99,13 +105,13 @@ const default_config = {
           links: [
             {
               name: "scholar",
-              url: "https://scholar.google.com/",
+              url: "https://scholar.google.com/schhp?hl=en&as_sdt=0,5",
               icon: "school",
               icon_color: palette.green,
             },
             {
               name: "library",
-              url: "https://rmit.primo.exlibrisgroup.com/discovery/search?vid=61RMIT_INST:RMITU&tab=AllNOTresearch&search_scope=EverythingNOTresearch&mode=basic&displayMode=full&bulkSize=10&highlight=true&dum=true&query=any,contains,&displayField=all&pcAvailabiltyMode=false&search=",
+              url: "https://rmit.primo.exlibrisgroup.com/discovery/search?vid=61RMIT_INST:RMITU",
               icon: "book",
               icon_color: palette.peach,
             },
