@@ -25,20 +25,19 @@ const default_config = {
             {
               name: "mail",
               url: "https://mail.proton.me",
-              icon: "brand-gmail",
+              icon: "mail",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.proton.me",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
+              name: "gmail",
+              url: "https://mail.google.com",
+              icon: "brand-gmail",
+              icon_color: palette.red,
             {
               name: "drive",
               url: "https://drive.proton.me",
-              icon: "brand-google-drive",
-              icon_color: palette.red,
+              icon: "cloud",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -52,19 +51,30 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "abc news",
-              url: "https://www.abc.net.au/news",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
               name: "bom",
               url: "https://beta.bom.gov.au/",
               icon: "sun",
               icon_color: palette.red
+            },
+            {
+              name: "storygraph",
+              url: "htts://app.thestorygraph.com",
+              icon: "book",
+              icon_color: palette.green
             }
           ],
         },
+        {
+          name: "entertainment",
+          links: [
+            {
+              name: "youtube",
+              url: "htts://www.youtube.com/feed/subscriptions",
+              icon: "brand-youtube",
+              icon_color: palette.green
+            }
+          ],
+        }
       ],
     },
     {
@@ -155,14 +165,14 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "stuff",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-          name: "social media",
+          name: "services",
           links: [
             {
-              name: "telegram",
+              name: "mygov",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
               icon_color: palette.green,
@@ -182,61 +192,44 @@ const default_config = {
           ],
         },
         {
-          name: "gaming",
+          name: "finance",
           links: [
             {
-              name: "IGN",
+              name: "westpac",
               url: "https://www.ign.com/account/playlist/library",
               icon: "device-gamepad",
               icon_color: palette.green,
             },
             {
-              name: "steam",
+              name: "suncorp",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
+              name: "unisuper",
               url: "https://store.epicgames.com",
               icon: "brand-fortnite",
               icon_color: palette.red,
             },
             {
-              name: "nintendo",
+              name: "vanguard",
               url: "https://store.nintendo.co.uk",
               icon: "device-nintendo",
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: "video",
-          links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
+              name: "stake",
+              url: "",
+              icon: "",
+              icon_color: palette.green
             },
             {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
-            },
+              name: "swyftx",
+              url: "",
+              icon: "",
+              icon_color: palette.green
+            }
           ],
         },
       ],
