@@ -33,6 +33,7 @@ const default_config = {
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.red,
+            },
             {
               name: "drive",
               url: "https://drive.proton.me",
