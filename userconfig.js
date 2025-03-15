@@ -187,32 +187,32 @@ const default_config = {
               name: "westpac",
               url: "https://banking.westpac.com.au/",
               icon: "building-bank",
-              icon_color: palette.green,
+              icon_color: palette.green
             },
             {
               name: "suncorp",
               url: "https://internetbanking.suncorpbank.com.au/",
               icon: "pig",
-              icon_color: palette.peach,
+              icon_color: palette.peach
             },
             {
               name: "unisuper",
               url: "https://memberonline.unisuper.com.au/",
               icon: "old",
-              icon_color: palette.red,
+              icon_color: palette.red
             },
             {
               name: "vanguard",
-              url: "https://logon.vanguard.com/"
+              url: "https://logon.vanguard.com/",
               icon: "shield",
-              icon_color: palette.blue,
+              icon_color: palette.blue
             },
             {
               name: "stake",
               url: "htt[s://trading.hellostake.com/auth/login",
               icon: "businessplan",
               icon_color: palette.mauve
-            },
+            }
           ],
         },
       ],
