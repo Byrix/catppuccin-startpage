@@ -173,22 +173,10 @@ const default_config = {
           links: [
             {
               name: "mygov",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              url: "https://login.my.gov.au/las/mygov-login",
+              icon: "question-mark",
               icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
+            }
           ],
         },
         {
@@ -196,40 +184,34 @@ const default_config = {
           links: [
             {
               name: "westpac",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              url: "https://banking.westpac.com.au/",
+              icon: "building-bank",
               icon_color: palette.green,
             },
             {
               name: "suncorp",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
+              url: "https://internetbanking.suncorpbank.com.au/",
+              icon: "pig",
               icon_color: palette.peach,
             },
             {
               name: "unisuper",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              url: "https://memberonline.unisuper.com.au/",
+              icon: "old",
               icon_color: palette.red,
             },
             {
               name: "vanguard",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
+              url: "https://logon.vanguard.com/"
+              icon: "shield",
               icon_color: palette.blue,
             },
             {
               name: "stake",
-              url: "",
-              icon: "",
-              icon_color: palette.green
+              url: "htt[s://trading.hellostake.com/auth/login",
+              icon: "businessplan",
+              icon_color: palette.mauve
             },
-            {
-              name: "swyftx",
-              url: "",
-              icon: "",
-              icon_color: palette.green
-            }
           ],
         },
       ],
