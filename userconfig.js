@@ -61,7 +61,7 @@ const default_config = {
               name: "storygraph",
               url: "htts://app.thestorygraph.com",
               icon: "book",
-              icon_color: palette.green
+              icon_color: palette.blue
             }
           ],
         },
@@ -70,7 +70,7 @@ const default_config = {
           links: [
             {
               name: "youtube",
-              url: "htts://www.youtube.com/feed/subscriptions",
+              url: "https://www.youtube.com/feed/subscriptions",
               icon: "brand-youtube",
               icon_color: palette.green
             }
