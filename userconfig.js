@@ -43,7 +43,7 @@ const default_config = {
           ],
         },
         {
-          name: "news",
+          name: "bookmarks",
           links: [
             {
               name: "ap",
