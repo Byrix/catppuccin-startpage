@@ -32,14 +32,20 @@ const default_config = {
               name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
             {
               name: "drive",
               url: "https://drive.proton.me",
               icon: "cloud",
-              icon_color: palette.blue,
+              icon_color: palette.red,
             },
+            {
+              name: "syncthing",
+              url: "http://127.0.0.1:8384/",
+              icon: "refresh",
+              icon: palette.blue
+            }
           ],
         },
         {
@@ -55,13 +61,13 @@ const default_config = {
               name: "bom",
               url: "https://beta.bom.gov.au/",
               icon: "sun",
-              icon_color: palette.red
+              icon_color: palette.peach
             },
             {
               name: "storygraph",
               url: "htts://app.thestorygraph.com",
               icon: "book",
-              icon_color: palette.blue
+              icon_color: palette.red
             }
           ],
         },
