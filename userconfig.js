@@ -44,7 +44,7 @@ const default_config = {
               name: "syncthing",
               url: "http://127.0.0.1:8384/",
               icon: "refresh",
-              icon: palette.blue
+              icon_color: palette.blue
             }
           ],
         },
