@@ -142,6 +142,7 @@ class Tabs extends Component {
 
       .categories ul:nth-child(1) {
           --flavour: ${CONFIG.palette.green};
+          background-size: auto; 
       }
 
       .categories ul:nth-child(2) {
