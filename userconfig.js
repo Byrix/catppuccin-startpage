@@ -65,7 +65,7 @@ const default_config = {
             },
             {
               name: "storygraph",
-              url: "htts://app.thestorygraph.com",
+              url: "https://app.thestorygraph.com",
               icon: "book",
               icon_color: palette.red
             }
