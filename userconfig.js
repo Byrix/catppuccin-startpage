@@ -180,7 +180,7 @@ const default_config = {
           links: [
             {
               name: "mygov",
-              url: "https://login.my.gov.au/las/mygov-login",
+              url: "https://my.gov.au/en/myaccount/dashboard/",
               icon: "question-mark",
               icon_color: palette.green,
             }
