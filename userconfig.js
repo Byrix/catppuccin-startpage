@@ -209,13 +209,13 @@ const default_config = {
             },
             {
               name: "vanguard",
-              url: "https://logon.vanguard.com/",
+              url: "https://www.vanguard.com.au/personal/vanguardonline/login",
               icon: "shield",
               icon_color: palette.blue
             },
             {
               name: "stake",
-              url: "htt[s://trading.hellostake.com/auth/login",
+              url: "https://trading.hellostake.com/auth/login",
               icon: "businessplan",
               icon_color: palette.mauve
             }
