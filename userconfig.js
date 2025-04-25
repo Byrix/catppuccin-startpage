@@ -79,6 +79,12 @@ const default_config = {
               url: "https://www.youtube.com/feed/subscriptions",
               icon: "brand-youtube",
               icon_color: palette.green
+            },
+            {
+              name: "twitch",
+              url: "https://twitch.tv/",
+              icon: "brand-twitch",
+              icon_color: palette.peach
             }
           ],
         }
@@ -134,7 +140,7 @@ const default_config = {
             },
             {
               name: "litmaps",
-              url: "https://www.litmaps.com/",
+              url: "https://app.litmaps.com/?auth=sign-in",
               icon: "schema",
               icon_color: palette.red,
             },
