@@ -82,9 +82,15 @@ const default_config = {
             },
             {
               name: "twitch",
-              url: "https://twitch.tv/",
+              url: "https://www.twitch.tv/",
               icon: "brand-twitch",
               icon_color: palette.peach
+            },
+            {
+              name: "nyt games",
+              url: "https://www.nytimes.com/crosswords",
+              icon: "puzzle",
+              icon_color: palette.red
             }
           ],
         }
