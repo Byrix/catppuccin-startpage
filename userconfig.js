@@ -233,6 +233,17 @@ const default_config = {
             }
           ],
         },
+        {
+          name: "dev",
+          links: [
+            {
+              name: "aur",
+              url: "aur.archlinux.org",
+              icon: "󰣇",
+              icon_color: palette.green
+            }
+          ]
+        }
       ],
     },
   ],
