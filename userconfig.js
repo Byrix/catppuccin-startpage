@@ -1,3 +1,4 @@
+// ICONS FROM: https://tabler.io/icons
 // latte / frappe / macchiato / mocha
 const palette = macchiato;
 
@@ -238,8 +239,8 @@ const default_config = {
           links: [
             {
               name: "aur",
-              url: "aur.archlinux.org",
-              icon: "󰣇",
+              url: "https://aur.archlinux.org",
+              icon: "package",
               icon_color: palette.green
             }
           ]
