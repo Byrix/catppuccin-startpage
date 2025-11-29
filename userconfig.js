@@ -59,16 +59,22 @@ const default_config = {
               icon_color: palette.green,
             },
             {
+              name: "abc",
+              url: "https://www.abc.net.au/news",
+              icon: "news",
+              icon_color: palette.peach,
+            },
+            {
               name: "bom",
               url: "https://beta.bom.gov.au/",
               icon: "sun",
-              icon_color: palette.peach
+              icon_color: palette.red
             },
             {
               name: "storygraph",
               url: "https://app.thestorygraph.com",
               icon: "book",
-              icon_color: palette.red
+              icon_color: palette.blue
             }
           ],
         },
@@ -196,43 +202,35 @@ const default_config = {
               url: "https://my.gov.au/en/myaccount/dashboard/",
               icon: "question-mark",
               icon_color: palette.green,
+            },
+            {
+              name: "pihole",
+              url: "https://192.168.1.2/dashb"
             }
           ],
         },
         {
-          name: "finance",
+          name: "things",
           links: [
             {
-              name: "westpac",
-              url: "https://banking.westpac.com.au/",
-              icon: "building-bank",
+              name: "pihole",
+              url: "https://192.168.1.2/admin/",
+              icon: "world_share",
               icon_color: palette.green
             },
             {
-              name: "suncorp",
-              url: "https://internetbanking.suncorpbank.com.au/",
-              icon: "pig",
+              name: "router",
+              url: "https://192.168.1.1",
+              icon: "router",
               icon_color: palette.peach
             },
             {
-              name: "unisuper",
-              url: "https://memberonline.unisuper.com.au/",
-              icon: "old",
+              name: "portainer",
+              url: "https://192.168.1.52:9443",
+              icon: "brand-docker",
               icon_color: palette.red
-            },
-            {
-              name: "vanguard",
-              url: "https://www.vanguard.com.au/personal/vanguardonline/login",
-              icon: "shield",
-              icon_color: palette.blue
-            },
-            {
-              name: "stake",
-              url: "https://trading.hellostake.com/auth/login",
-              icon: "businessplan",
-              icon_color: palette.mauve
             }
-          ],
+          ]
         },
         {
           name: "dev",
@@ -242,6 +240,18 @@ const default_config = {
               url: "https://aur.archlinux.org",
               icon: "package",
               icon_color: palette.green
+            },
+            {
+              name: "github",
+              url: "https://github.com",
+              icon: "brand-github",
+              icon_color: palette.peach
+            },
+            {
+              name: "mynixos",
+              url: "https://mynixos.com",
+              icon: "settings-check",
+              icon_color: palette.red
             }
           ]
         }
