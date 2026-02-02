@@ -104,87 +104,40 @@ const default_config = {
       ],
     },
     {
-      name: "uni",
+      name: "home",
       background_url: "src/img/banners/cbg-06.gif",
       categories: [
         {
-          name: "services",
+          name: "hosting",
           links: [
             {
-              name: "canvas",
-              url: "https://rmit.instructure.com/",
-              icon: "chalkboard",
+              name: "pangolin",
+              url: "https://pangolin.byrix.dev/",
+              icon: "brand-edge",
               icon_color: palette.green,
             },
             {
-              name: "outlook",
-              url: "https://outlook.office365.com/mail/",
-              icon: "mail",
+              name: "traefik",
+              url: "https://traefik.byrix.dev/",
+              icon: "traffic-lights",
               icon_color: palette.peach,
             },
             {
-              name: "teams",
-              url: "https://teams.microsoft.com/v2",
-              icon: "brand-teams",
+              name: "portainer",
+              url: "https://docker.byrix.dev/",
+              icon: "brand-docker",
               icon_color: palette.red,
-            },
-            {
-              name: "easycite",
-              url: "https://www.lib.rmit.edu.au/easy-cite/",
-              icon: "blockquote",
-              icon_color: palette.blue
             }
           ],
         },
         {
-          name: "research",
+          name: "services",
           links: [
             {
-              name: "scholar",
-              url: "https://scholar.google.com/schhp?hl=en&as_sdt=0,5",
-              icon: "school",
+              name: "gitlab",
+              url: "https://git.byrix.dev/"
+              icon: "brand-gitlab",
               icon_color: palette.green,
-            },
-            {
-              name: "library",
-              url: "https://rmit.primo.exlibrisgroup.com/discovery/search?vid=61RMIT_INST:RMITU",
-              icon: "book",
-              icon_color: palette.peach,
-            },
-            {
-              name: "litmaps",
-              url: "https://app.litmaps.com/?auth=sign-in",
-              icon: "schema",
-              icon_color: palette.red,
-            },
-            {
-              name: "elict",
-              url: "https://elicit.com/",
-              icon: "search",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "tools",
-          links: [
-            {
-              name: "chatpgt",
-              url: "https://chatgpt.com/",
-              icon: "message",
-              icon_color: palette.green,
-            },
-            {
-              name: "val",
-              url: "https://val.rmit.edu.au/",
-              icon: "robot",
-              icon_color: palette.peach,
-            },
-            {
-              name: 'github',
-              url: 'https://github.com',
-              icon: 'brand-github',
-              icon_color: palette.red
             }
           ],
         },
